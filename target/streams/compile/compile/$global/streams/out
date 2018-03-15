@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\lab5\app\controllers\ShoppingCtrl.java:137:1: not a statement[0m
+[0m[[0m[31merror[0m] [0m[0m        for(c.getBasket().get)[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\lab5\app\controllers\ShoppingCtrl.java:137:1: ';' expected[0m
+[0m[[0m[31merror[0m] [0m[0m        for(c.getBasket().get)[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\lab5\app\controllers\ShoppingCtrl.java:137:1: ';' expected[0m
+[0m[[0m[31merror[0m] [0m[0m        for(c.getBasket().get)[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\lab5\app\controllers\ShoppingCtrl.java:138:1: illegal start of expression[0m
+[0m[[0m[31merror[0m] [0m[0m        c.getBasket().removeAllItems();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\lab5\app\controllers\ShoppingCtrl.java:138:1: ')' expected[0m
+[0m[[0m[31merror[0m] [0m[0m        c.getBasket().removeAllItems();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\lab5\app\controllers\ShoppingCtrl.java:138:1: -> expected[0m
+[0m[[0m[31merror[0m] [0m[0m        c.getBasket().removeAllItems();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\lab5\app\controllers\ShoppingCtrl.java:138:1: ';' expected[0m
+[0m[[0m[31merror[0m] [0m[0m        c.getBasket().removeAllItems();[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Documents\lab5\app\controllers\ShoppingCtrl.java:138:1: variable declaration not allowed here[0m
+[0m[[0m[31merror[0m] [0m[0m        c.getBasket().removeAllItems();[0m
