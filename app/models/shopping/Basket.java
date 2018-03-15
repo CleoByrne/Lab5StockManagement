@@ -52,6 +52,7 @@ public class Basket extends Model {
     }
     public void removeItem(OrderItem item) {
 
+
         // Using an iterator ensures 'safe' removal of list objects
         // Removal of list items is unreliable as index can change if an item is 
         // added or removed elsewhere
@@ -60,9 +61,6 @@ public class Basket extends Model {
             OrderItem i = iter.next();
             if (i.getId().equals(item.getId()))
             {
-
-                    i.getProduct().setStock(i.getProduct().getStock() +i.getQuantity());
-                    i.getProduct().update();
                 // If more than one of these items in the basket then decrement
                 if (i.getQuantity() > 1 ) {
                     i.decreaseQty();

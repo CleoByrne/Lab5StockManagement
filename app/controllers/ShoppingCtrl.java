@@ -117,6 +117,7 @@ public class ShoppingCtrl extends Controller {
         // Call basket remove item method
 
         item.getProduct().setStock(item.getProduct().getStock() +1);
+        item.getProduct().update();
         c.getBasket().removeItem(item);
 
         c.getBasket().update();
